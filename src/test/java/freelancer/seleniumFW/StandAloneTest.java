@@ -38,6 +38,8 @@ public class StandAloneTest {
 		w.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
 	
 		w.get("https://rahulshettyacademy.com/client");	
+		System.out.println("Successfully login******");
+		System.out.println("Successfully login**oing changes to the devlop branch****");
 		
 		w.findElement(By.id("userEmail")).sendKeys("swati.vini11@gmail.com");
 		w.findElement(By.id("userPassword")).sendKeys("Rishabh27!");
