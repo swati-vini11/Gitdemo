@@ -2,8 +2,8 @@ package freelancer.seleniumFW;
 
 import java.awt.Desktop.Action;
 import java.lang.reflect.Array;
-import java.time.Duration;
-import java.time.temporal.TemporalAmount;
+//import java.time.Duration;
+//import java.time.temporal.TemporalAmount;
 import java.util.ArrayList;
 import java.util.List;
 import org.openqa.selenium.support.ui.ExpectedConditions;
