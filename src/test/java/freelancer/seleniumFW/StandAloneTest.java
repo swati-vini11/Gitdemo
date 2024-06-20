@@ -35,7 +35,7 @@ public class StandAloneTest {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		WebDriver w=new ChromeDriver();
 		w.manage().window().maximize();
-		w.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
+		//w.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
 	
 		w.get("https://rahulshettyacademy.com/client");	
 		System.out.println("Successfully login******");
